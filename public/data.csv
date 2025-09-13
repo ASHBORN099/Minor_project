@@ -1,0 +1,2137 @@
+task_description,due_date,keywords,effort_hours,is_urgent,priority
+"Pay electricity bill.",2025-09-12,"bill, electricity, pay",0.5,1,high
+"Renew car insurance.",2025-09-11,"car, insurance, renew",0.5,1,high
+"Take out the trash and recycling.",2025-09-11,"trash, recycling, take out",0.25,1,high
+"Prepare dinner for tonight.",2025-09-11,"dinner, cook, prepare",1,0,high
+"Fix a leaky faucet in the kitchen.",2025-09-12,"leaky, faucet, fix",2,1,high
+"Buy a gift for an anniversary party.",2025-09-12,"gift, anniversary, party",1,0,high
+"Arrange for a plumber to fix the toilet.",2025-09-11,"plumber, toilet, fix",0.25,1,high
+"Check the smoke detector batteries.",2025-09-11,"smoke detector, batteries, check",0.25,1,high
+"Pay the rent.",2025-09-11,"rent, pay, due",0.25,1,high
+"Take the dog to the vet.",2025-09-12,"dog, vet, appointment",1,0,high
+"Review and update monthly budget.",2025-09-11,"review, budget, update",1,0,high
+"File important tax documents.",2025-09-11,"tax, file, documents",2,1,high
+"Shovel snow from the driveway.",2025-09-11,"shovel, snow, urgent",1,1,high
+"Fix a running toilet.",2025-09-12,"fix, toilet, running",1,0,high
+"Get a quote for home insurance.",2025-09-11,"insurance, home, quote",1,1,high
+"Resolve a critical water leak.",2025-09-11,"water, leak, critical",1.5,1,high
+"Finalize vacation itinerary.",2025-09-11,"vacation, itinerary, final",1.5,1,high
+"Renew passport.",2025-09-11,"passport, renew, urgent",1,1,high
+"Schedule a doctor's appointment.",2025-09-11,"doctor, appointment, schedule",0.25,1,high
+"Unclog the bathroom sink.",2025-09-11,"unclog, sink, bathroom",1,1,high
+"Fix a flat tire.",2025-09-11,"fix, flat tire, urgent",1,1,high
+"Prepare dinner for guests tonight.",2025-09-11,"dinner, guests, prepare",1.5,1,high
+"Wash the car.",2025-09-12,"wash, car, clean",1,0,high
+"Take garbage out.",2025-09-11,"garbage, take out, routine",0.25,1,high
+"Clean and wipe down all kitchen surfaces.",2025-09-11,"clean, kitchen, surfaces",0.5,0,high
+"Fix a minor water leak.",2025-09-11,"fix, water, leak",1,1,high
+"Fix a broken light fixture.",2025-09-11,"fix, light, broken",1.5,0,high
+"Call to schedule an electrician.",2025-09-11,"call, electrician, schedule",0.25,0,high
+"Renew prescription.",2025-09-11,"renew, prescription, urgent",0.5,1,high
+"Get new glasses prescription.",2025-09-11,"glasses, prescription, get",1.5,0,high
+"Pay off credit card balance.",2025-09-11,"credit card, pay, finance",0.5,1,high
+"Book flights for family vacation.",2025-09-12,"flights, vacation, book",1,0,high
+"Call utility company about an error on the bill.",2025-09-11,"utility, bill, error",0.5,1,high
+"Take the dog to the vet.",2025-09-11,"dog, vet, appointment, urgent",1,1,high
+"Pay off a loan before the deadline.",2025-09-11,"loan, pay, deadline",0.5,1,high
+"Respond to an urgent email from landlord.",2025-09-11,"email, landlord, urgent",0.5,1,high
+"Schedule an emergency plumbing repair.",2025-09-11,"plumbing, emergency, repair",0.5,1,high
+"Finalize and sign mortgage papers.",2025-09-11,"mortgage, sign, papers",1.5,1,high
+"Clean up a flood in the basement.",2025-09-11,"flood, basement, cleanup",4,1,high
+"Escort elderly parent to doctor's appointment.",2025-09-11,"parent, doctor, escort",2,1,high
+"Respond to a critical work message.",2025-09-11,"critical, work, message",0.5,1,high
+"Attend a mandatory family gathering.",2025-09-11,"family, gathering, mandatory",3,1,high
+"Submit tax returns before the deadline.",2025-09-11,"tax, returns, deadline",2,1,high
+"Finalize funeral arrangements.",2025-09-11,"funeral, arrangements, final",3,1,high
+"Pick up prescription medication.",2025-09-11,"prescription, medication, pick up",0.5,1,high
+"Resolve an urgent issue with the alarm system.",2025-09-11,"alarm, urgent, resolve",1,1,high
+"Submit insurance claim for a car accident.",2025-09-11,"insurance, claim, accident",1,1,high
+"Attend a time-sensitive job interview.",2025-09-11,"job, interview, time-sensitive",2,1,high
+"Pay off a credit card debt.",2025-09-11,"debt, pay, credit card",0.5,1,high
+"Contact a lawyer about a legal issue.",2025-09-11,"lawyer, legal, issue",1,1,high
+"Schedule a vet visit for a sick pet.",2025-09-11,"vet, sick, pet",0.5,1,high
+"Call emergency services for a medical issue.",2025-09-11,"emergency, medical, services",0.25,1,high
+"Resolve an urgent plumbing problem.",2025-09-11,"plumbing, urgent, problem",1.5,1,high
+"Make a payment on a past-due account.",2025-09-11,"payment, past-due, account",0.5,1,high
+"Attend a child's school conference.",2025-09-11,"child, school, conference",1,1,high
+"Fix a gas leak in the kitchen.",2025-09-11,"gas, leak, fix",1,1,high
+"Check on a family member with a health issue.",2025-09-11,"family, health, check",0.5,1,high
+"Submit a time-sensitive job application.",2025-09-11,"job, application, time-sensitive",1,1,high
+"Resolve an urgent issue with the home security system.",2025-09-11,"security, system, urgent",1,1,high
+"Make a payment to avoid a late fee.",2025-09-11,"payment, late fee, avoid",0.5,1,high
+"Attend an important court hearing.",2025-09-11,"court, hearing, important",3,1,high
+"Water all the houseplants.",2025-09-13,"water, plants, routine",0.25,0,medium
+"Call dentist to schedule check-up.",2025-09-14,"dentist, call, schedule",0.25,0,medium
+"Return library books before the due date.",2025-09-14,"library, books, return",1,0,medium
+"Bake a cake for a special occasion.",2025-09-14,"bake, cake, occasion",2,0,medium
+"Buy new shoes for the kids.",2025-09-14,"shoes, kids, buy",1.5,0,medium
+"Pick up prescriptions from the pharmacy.",2025-09-13,"prescriptions, pharmacy, pick up",0.5,0,medium
+"Mail a package.",2025-09-14,"mail, package, post office",0.5,0,medium
+"Buy tickets for a concert.",2025-09-14,"tickets, concert, buy",0.5,0,medium
+"Clean and organize the refrigerator.",2025-09-14,"clean, organize, refrigerator",1.5,0,medium
+"Get car emissions test done.",2025-09-13,"car, emissions, test",1.5,0,medium
+"Organize the refrigerator.",2025-09-14,"organize, refrigerator, food",1.5,0,medium
+"Book a restaurant reservation.",2025-09-14,"book, restaurant, reservation",0.25,0,medium
+"Grocery shopping for the week.",2025-09-13,"grocery, shopping, week",2,0,medium
+"Take clothes to the tailor.",2025-09-13,"clothes, tailor, take",0.5,0,medium
+"Wash the car's exterior.",2025-09-14,"wash, car, clean",1,0,medium
+"Review financial statements for the month.",2025-09-14,"review, financial, statements",2,0,medium
+"Help a friend move.",2025-09-15,"help, move, friend",4,0,medium
+"Prepare for a presentation at a club meeting.",2025-09-14,"presentation, club, prepare",3,0,medium
+"Buy a birthday gift for a colleague.",2025-09-13,"gift, birthday, colleague",1,0,medium
+"Schedule a house-sitter for vacation.",2025-09-14,"house-sitter, schedule, vacation",0.5,0,medium
+"Clean out the car's interior.",2025-09-15,"clean, car, interior",2,0,medium
+"Research and book a hotel for a trip.",2025-09-15,"research, hotel, book",1.5,0,medium
+"Shop for birthday party decorations.",2025-09-14,"decorations, birthday, shop",1.5,0,medium
+"Buy new tires for the car.",2025-09-14,"tires, car, buy",2,0,medium
+"Clean the gutters.",2025-09-20,"clean, gutters, house",3,0,low
+"Wash and fold all the laundry.",2025-09-20,"laundry, wash, fold",3,0,low
+"Organize the kitchen pantry.",2025-09-25,"organize, kitchen, pantry",2,0,low
+"Change the bedsheets.",2025-09-20,"bedsheets, change, laundry",0.5,0,low
+"Mow the lawn.",2025-09-20,"mow, lawn, yard work",1.5,0,low
+"Clean out the refrigerator.",2025-09-25,"clean, refrigerator, kitchen",1,0,low
+"Schedule a hair appointment.",2025-09-25,"hair, appointment, schedule",0.25,0,low
+"Write a letter to a family member.",2025-09-25,"letter, write, family",0.5,0,low
+"Clean the windows.",2025-09-28,"clean, windows, chores",3,0,low
+"Repair a broken chair leg.",2025-09-20,"repair, chair, broken",1,0,low
+"Organize clothes in the closet.",2025-09-28,"organize, clothes, closet",2.5,0,low
+"Plan meals for the upcoming week.",2025-09-20,"meals, plan, week",1,0,low
+"Plan a weekend getaway.",2025-09-25,"plan, getaway, weekend",2,0,low
+"Cook a new recipe.",2025-09-22,"cook, recipe, new",1.5,0,low
+"Clean the oven.",2025-09-26,"clean, oven, kitchen",2,0,low
+"Organize the kids' toys.",2025-09-25,"organize, toys, kids",2,0,low
+"Wash the curtains.",2025-09-25,"wash, curtains, laundry",2,0,low
+"Attend a yoga class.",2025-09-18,"yoga, class, routine",1,0,low
+"Research and compare new gym memberships.",2025-09-25,"research, gym, membership",1.5,0,low
+"Organize the spice rack.",2025-09-20,"organize, spice rack, kitchen",1,0,low
+"Read a book for leisure.",2025-09-20,"read, book, leisure",3,0,low
+"Listen to a new podcast series.",2025-09-25,"listen, podcast, new",2,0,low
+"Plan and prepare a surprise party.",2025-09-20,"plan, surprise, party",5,0,low
+"Clean the patio furniture.",2025-09-25,"clean, patio, furniture",1,0,low
+"Fix a broken chair.",2025-09-20,"fix, broken, chair",1,0,low
+"Organize the basement storage area.",2025-09-28,"organize, basement, storage",4,0,low
+"Research a good financial advisor.",2025-09-25,"research, advisor, financial",2,0,low
+"Call family to check in.",2025-09-20,"call, family, check in",0.5,0,low
+"Organize the home office.",2025-09-22,"organize, office, home",2,0,low
+"Clean the carpets in the living room.",2025-09-25,"clean, carpets, living room",3,0,low
+"Buy a new television.",2025-09-15,"buy, television, new",1,0,low
+"Plan a family movie night.",2025-09-15,"plan, movie, family",0.5,0,low
+"Fix a minor CSS issue on a personal blog.",2025-09-14,"fix, CSS, blog",0.5,0,low
+"Buy groceries for the week.",2025-09-15,"groceries, shopping, week",2,0,medium
+"Clean the living room.",2025-09-18,"clean, living room, chores",1,0,medium
+"Replace burnt-out lightbulb in the living room.",2025-09-15,"lightbulb, replace, living room",0.25,0,low
+"Clean the gutters.",2025-09-20,"clean, gutters, house",3,0,low
+"Research and book a hotel for a trip.",2025-09-15,"research, hotel, book",1.5,0,medium
+"Organize a personal photo album.",2025-09-25,"organize, photo, album",2,0,low
+"Repair a small tear in a piece of clothing.",2025-09-18,"repair, tear, clothing",1,0,low
+"Write and send out a thank-you note.",2025-09-15,"write, thank-you, note",0.5,0,low
+"Check email for new messages.",2025-09-12,"email, check, routine",0.25,0,low
+"Clean the car interior and exterior.",2025-09-15,"clean, car, interior, exterior",2.5,0,medium
+"Update your resume.",2025-09-18,"resume, update, career",2,0,medium
+"Learn a new recipe.",2025-09-20,"learn, recipe, cook",1.5,0,low
+"Buy new clothes for a special occasion.",2025-09-15,"clothes, special, occasion",2,0,medium
+"Schedule a tune-up for your bicycle.",2025-09-22,"bicycle, tune-up, schedule",0.5,0,low
+"Organize the medicine cabinet.",2025-09-25,"organize, medicine, cabinet",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"birthday, party, plan",3,0,medium
+"Clean out the garage.",2025-09-28,"clean, garage, organization",4,0,low
+"Research a new laptop to buy.",2025-09-20,"research, laptop, buy",1.5,0,low
+"Take clothes to the dry cleaner.",2025-09-13,"clothes, dry cleaner, take",0.5,0,medium
+"Arrange for a house cleaner to come.",2025-09-15,"house cleaner, arrange, schedule",0.25,0,medium
+"Bake bread for the week.",2025-09-16,"bake, bread, week",2,0,low
+"Clean and organize the refrigerator.",2025-09-14,"clean, organize, refrigerator",1.5,0,medium
+"Start a new book.",2025-09-20,"book, start, leisure",0.25,0,low
+"Research new places to go on vacation.",2025-09-25,"research, vacation, new",2,0,low
+"Wash bed linen and towels.",2025-09-18,"wash, bed linen, towels",1,0,medium
+"Change the oil in the car.",2025-09-15,"oil, car, change",1.5,0,medium
+"Prepare for a job interview.",2025-09-13,"job interview, prepare, urgent",3,0,high
+"File a complaint about a product.",2025-09-14,"file, complaint, product",1,0,medium
+"Create a financial plan for the month.",2025-09-12,"financial, plan, month",2,0,high
+"Buy a birthday gift for your mom.",2025-09-13,"birthday, mom, gift",1,0,medium
+"Clean out the pantry.",2025-09-20,"clean, pantry, organize",2,0,low
+"Fix a broken chair.",2025-09-15,"fix, chair, broken",1,0,medium
+"Call your parents.",2025-09-16,"call, parents, family",0.5,0,low
+"Wash all windows in the house.",2025-09-28,"wash, windows, chores",4,0,low
+"Plan a weekend trip to a nearby city.",2025-09-20,"plan, weekend, trip",2,0,low
+"Get new glasses.",2025-09-12,"glasses, new, buy",1,0,medium
+"Clean the garage.",2025-09-25,"clean, garage, chores",3,0,low
+"Organize the spice rack.",2025-09-18,"organize, spice rack, kitchen",0.5,0,low
+"Prepare a presentation for a community meeting.",2025-09-14,"presentation, community, prepare",3,0,medium
+"Mail a birthday card.",2025-09-12,"mail, birthday, card",0.5,0,low
+"Fix a loose doorknob.",2025-09-13,"fix, doorknob, loose",0.5,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Schedule a dental cleaning.",2025-09-15,"dental, cleaning, schedule",0.25,0,medium
+"Clean the gutters on the house.",2025-09-20,"clean, gutters, house",3,0,low
+"Buy tickets to a concert.",2025-09-14,"tickets, concert, buy",0.5,0,medium
+"Organize and clean the refrigerator.",2025-09-15,"organize, clean, refrigerator",1.5,0,medium
+"Prepare lunch for the week.",2025-09-13,"prepare, lunch, week",1.5,0,medium
+"Wash and wax the car.",2025-09-18,"wash, wax, car",2,0,medium
+"Get a new passport photo taken.",2025-09-12,"passport, photo, new",0.5,0,high
+"Update the family calendar.",2025-09-12,"update, calendar, family",0.25,0,low
+"Buy a new bed.",2025-09-25,"bed, new, buy",3,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Take a bike ride.",2025-09-17,"bike, ride, leisure",1.5,0,low
+"Check your credit score.",2025-09-13,"credit score, check, finance",0.5,0,low
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Pay off a loan.",2025-09-12,"pay, loan, finance",0.5,0,high
+"Book a restaurant for a special occasion.",2025-09-14,"book, restaurant, special",0.25,0,medium
+"Clean the basement.",2025-09-28,"clean, basement, chores",5,0,low
+"Take your pet to the groomer.",2025-09-15,"pet, groomer, appointment",1,0,medium
+"Organize your digital files.",2025-09-22,"organize, digital, files",3,0,low
+"Buy a birthday card.",2025-09-12,"buy, birthday, card",0.25,0,low
+"Fix a running toilet.",2025-09-13,"fix, toilet, running",1,0,medium
+"Get a quote for a new roof.",2025-09-15,"quote, roof, new",1,0,low
+"Wash and iron clothes for the week.",2025-09-14,"wash, iron, clothes",2,0,medium
+"Research a new phone to buy.",2025-09-20,"research, phone, buy",2,0,low
+"Organize the garage.",2025-09-25,"organize, garage, chores",4,0,low
+"Clean the kitchen floor.",2025-09-13,"clean, kitchen, floor",0.5,0,medium
+"Schedule a follow-up with your doctor.",2025-09-14,"follow-up, doctor, schedule",0.25,0,medium
+"Organize your closet.",2025-09-28,"organize, closet, clothes",3,0,low
+"Buy new pillows.",2025-09-18,"pillows, new, buy",1,0,low
+"Fix a squeaky door.",2025-09-15,"fix, door, squeaky",0.5,0,low
+"Plan a road trip.",2025-09-22,"plan, road trip, travel",2.5,0,low
+"Clean the car's interior.",2025-09-18,"clean, car, interior",1.5,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Take a yoga class.",2025-09-17,"yoga, class, leisure",1,0,low
+"Buy stamps.",2025-09-13,"stamps, buy, mail",0.25,0,low
+"Write a letter to a friend.",2025-09-15,"write, letter, friend",0.5,0,low
+"Research a new investment opportunity.",2025-09-20,"research, investment, opportunity",2,0,medium
+"Fix a leaking pipe under the sink.",2025-09-12,"fix, leaking, pipe",1.5,0,high
+"Organize the attic.",2025-10-01,"organize, attic, storage",4,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,medium
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Clean and organize the pantry.",2025-09-25,"clean, organize, pantry",2,0,low
+"Go for a run.",2025-09-14,"run, exercise, leisure",0.5,0,low
+"Attend a parent-teacher conference.",2025-09-15,"parent-teacher, conference, attend",1,0,high
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Wash the bedding.",2025-09-12,"wash, bedding, laundry",1,0,low
+"Pay the internet bill.",2025-09-13,"internet, bill, pay",0.5,0,medium
+"Cook dinner for the week.",2025-09-14,"cook, dinner, week",3,0,medium
+"Organize the junk drawer.",2025-09-20,"organize, junk, drawer",0.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,medium
+"Get a haircut.",2025-09-15,"haircut, get, schedule",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"birthday, party, plan",3,0,medium
+"Renew your driver's license.",2025-09-15,"renew, driver's license, urgent",1,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chores",3,0,low
+"Take the dog for a walk.",2025-09-12,"walk, dog, exercise",0.5,0,low
+"Buy new sneakers.",2025-09-15,"sneakers, new, buy",1.5,0,medium
+"Plan a workout routine.",2025-09-16,"plan, workout, routine",1,0,low
+"Fix a wobbly table.",2025-09-14,"fix, table, wobbly",0.5,0,low
+"Organize your photos on your computer.",2025-09-22,"organize, photos, computer",2.5,0,low
+"Schedule a car service.",2025-09-15,"car, service, schedule",0.5,0,medium
+"Take a painting class.",2025-09-18,"painting, class, leisure",2,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Prepare a presentation for work.",2025-09-14,"presentation, work, prepare",4,0,high
+"Fix a leak in the roof.",2025-09-12,"fix, leak, roof",3,0,high
+"Organize your documents.",2025-09-25,"organize, documents, file",2,0,medium
+"Write a letter of recommendation.",2025-09-15,"write, letter, recommendation",1.5,0,high
+"Clean the entire house.",2025-09-20,"clean, house, chore",5,0,low
+"Go to the bank.",2025-09-13,"bank, go, errand",0.5,0,medium
+"Buy new bedding.",2025-09-16,"bedding, new, buy",1,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Cook a special dinner for a loved one.",2025-09-15,"cook, dinner, special",2.5,0,medium
+"Plan a day trip.",2025-09-20,"plan, day trip, travel",1,0,low
+"Buy groceries for a specific recipe.",2025-09-14,"groceries, recipe, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Read a book for pleasure.",2025-09-19,"read, book, pleasure",2,0,low
+"Attend a friend's wedding.",2025-09-14,"attend, wedding, friend",6,0,high
+"Fix a clogged drain.",2025-09-12,"fix, drain, clogged",1,0,high
+"Renew your gym membership.",2025-09-14,"renew, gym, membership",0.5,0,medium
+"Clean out the freezer.",2025-09-25,"clean, freezer, kitchen",1.5,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Plan a dinner party.",2025-09-20,"plan, dinner, party",3,0,low
+"Organize your clothes by color.",2025-09-25,"organize, clothes, color",2,0,low
+"Fix a broken cabinet door.",2025-09-15,"fix, cabinet, broken",0.5,0,low
+"Go for a long run.",2025-09-18,"run, long, exercise",1.5,0,low
+"Buy a new TV.",2025-09-22,"TV, new, buy",1,0,low
+"Schedule a massage.",2025-09-15,"massage, schedule, relax",0.5,0,medium
+"Clean out the gutters.",2025-09-20,"clean, gutters, house",2.5,0,low
+"Fix a car alarm.",2025-09-14,"fix, car, alarm",1.5,0,medium
+"Organize your desk.",2025-09-18,"organize, desk, office",1,0,low
+"Pay a utility bill.",2025-09-13,"pay, utility, bill",0.5,0,high
+"Cook a new recipe.",2025-09-15,"cook, recipe, new",1.5,0,medium
+"Renew your magazine subscription.",2025-09-18,"renew, magazine, subscription",0.25,0,low
+"Fix a flat bicycle tire.",2025-09-14,"fix, bicycle, tire",0.5,0,medium
+"Take a photography class.",2025-09-20,"photography, class, leisure",2,0,low
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your kitchen cabinets.",2025-09-20,"organize, kitchen, cabinets",2,0,low
+"Pay a credit card bill.",2025-09-12,"pay, credit card, bill",0.5,0,high
+"Take a cooking class.",2025-09-18,"cooking, class, leisure",2.5,0,low
+"Fix a broken table.",2025-09-15,"fix, table, broken",1,0,medium
+"Organize your garage.",2025-09-25,"organize, garage, storage",4,0,low
+"Buy new kitchen appliances.",2025-09-20,"kitchen, appliances, buy",2,0,low
+"Fix a leaky roof.",2025-09-13,"fix, leaky, roof",3,0,high
+"Clean the garage.",2025-09-28,"clean, garage, chores",4,0,low
+"Buy new clothes for the season.",2025-09-16,"clothes, new, buy",2,0,medium
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Plan a vacation.",2025-09-25,"plan, vacation, travel",3,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your closet.",2025-09-28,"clean, closet, organize",3,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,low
+"Buy a new sofa.",2025-09-25,"sofa, new, buy",1,0,low
+"Organize your shed.",2025-09-28,"organize, shed, storage",3,0,low
+"Fix a leaky faucet in the bathroom.",2025-09-12,"fix, faucet, bathroom",1.5,0,high
+"Clean the bathroom.",2025-09-20,"clean, bathroom, chore",1.5,0,low
+"Buy new towels.",2025-09-18,"towels, new, buy",1,0,low
+"Fix a broken lamp.",2025-09-15,"fix, lamp, broken",0.5,0,low
+"Go for a walk.",2025-09-16,"walk, leisure, exercise",0.5,0,low
+"Take out the trash.",2025-09-11,"trash, take out, routine",0.25,1,high
+"Clean the kitchen.",2025-09-12,"clean, kitchen, chore",1,0,medium
+"Go grocery shopping.",2025-09-13,"grocery, shopping, food",2,0,medium
+"Take the dog for a walk.",2025-09-12,"dog, walk, routine",0.5,0,low
+"Clean the bathroom.",2025-09-18,"clean, bathroom, chore",1.5,0,medium
+"Wash the car.",2025-09-15,"wash, car, clean",1,0,medium
+"Go for a bike ride.",2025-09-16,"bike, ride, leisure",1.5,0,low
+"Organize the garage.",2025-09-20,"organize, garage, chore",3,0,low
+"Buy a new shirt.",2025-09-14,"shirt, new, buy",0.5,0,low
+"Fix a flat tire.",2025-09-13,"fix, flat tire, repair",1,0,medium
+"Take out the recycling.",2025-09-11,"recycling, take out, routine",0.25,1,high
+"Cook dinner.",2025-09-11,"cook, dinner, food",1,0,high
+"Clean the bedroom.",2025-09-16,"clean, bedroom, chore",1,0,low
+"Buy new shoes.",2025-09-15,"shoes, new, buy",1,0,medium
+"Organize your bookshelf.",2025-09-18,"organize, bookshelf, books",1,0,low
+"Take a nap.",2025-09-14,"nap, rest, leisure",0.5,0,low
+"Go for a run.",2025-09-15,"run, exercise, leisure",0.5,0,low
+"Pay the phone bill.",2025-09-12,"pay, phone, bill",0.5,0,high
+"Clean the living room.",2025-09-14,"clean, living room, chore",1.5,0,medium
+"Organize the pantry.",2025-09-20,"organize, pantry, food",1.5,0,low
+"Buy new bedding.",2025-09-18,"bedding, new, buy",1,0,low
+"Fix a loose railing.",2025-09-15,"fix, railing, repair",1,0,medium
+"Take a walk in the park.",2025-09-16,"walk, park, leisure",1,0,low
+"Organize your home office.",2025-09-22,"organize, home office, clean",2,0,low
+"Buy a new coat.",2025-09-18,"coat, new, buy",1,0,low
+"Fix a running toilet.",2025-09-15,"fix, toilet, running",1,0,medium
+"Clean the gutters.",2025-09-25,"clean, gutters, chore",2.5,0,low
+"Buy tickets to a movie.",2025-09-16,"tickets, movie, buy",0.25,0,low
+"Organize your clothes by season.",2025-09-20,"organize, clothes, season",2.5,0,low
+"Pay the car payment.",2025-09-12,"pay, car, payment",0.5,0,high
+"Clean the carpets.",2025-09-25,"clean, carpets, chore",3,0,low
+"Buy a new desk.",2025-09-20,"desk, new, buy",1,0,low
+"Fix a broken kitchen cabinet.",2025-09-15,"fix, kitchen, cabinet",0.5,0,low
+"Organize your digital photos.",2025-09-22,"organize, digital, photos",2.5,0,low
+"Buy a new refrigerator.",2025-09-25,"refrigerator, new, buy",1,0,low
+"Fix a leaking faucet in the kitchen.",2025-09-13,"fix, leaking, faucet",1.5,0,high
+"Clean the windows.",2025-09-20,"clean, windows, chore",3,0,low
+"Buy a new computer.",2025-09-25,"computer, new, buy",2,0,low
+"Fix a leaky roof.",2025-09-14,"fix, leaky, roof",3,0,high
+"Clean the bathroom.",2025-09-16,"clean, bathroom, chore",1.5,0,low
+"Buy new clothes for the summer.",2025-09-15,"clothes, new, buy",2,0,medium
+"Organize your finances.",2025-09-20,"organize, finance, budget",2,0,medium
+"Plan a weekend getaway.",2025-09-22,"plan, weekend, getaway",2.5,0,low
+"Fix a broken phone screen.",2025-09-15,"fix, broken, phone",1.5,0,high
+"Clean out your garage.",2025-09-28,"clean, garage, organize",4,0,low
+"Buy a new lamp.",2025-09-16,"lamp, new, buy",0.5,0,low
+"Fix a broken fence.",2025-09-18,"fix, fence, broken",2,0,medium
+"Organize your bookshelf.",2025-09-20,"organize, bookshelf, books",1,0,low
+"Plan a birthday party for a friend.",2025-09-18,"plan, birthday, friend",3,0,medium
+"Fix a leaky pipe in the basement.",2025-09-14,"fix, leaky, pipe",1.5,0,high
+"Clean the patio furniture.",2025-09-20,"clean, patio, furniture",1,0,low
+"Organize your storage unit.",2025-09-28,"organize, storage, unit",3,0,low
+"Buy new appliances for the kitchen.",2025-09-25,"appliances, new, kitchen",2,0,low
+"Fix a broken chair.",2025-09-16,"fix, chair, broken",1,0,low
+"Organize your digital files.",2025-09-22,"organize, digital, files",2.5,0,low
+"Clean the oven.",2025-09-20,"clean, oven, kitchen",2,0,low
+"Buy a new car.",2025-09-25,"car, new, buy",8,0,low
+"Fix a broken window.",2025-09-15,"fix, window, broken",2,0,high
+"Organize your closet.",2025-09-25,"organize, closet, clothes",3,0,low
+"Buy a new bed.",2025-09-20,"bed, new, buy",1,0,low
+"Fix a running faucet.",2025-09-14,"fix, faucet, running",0.5,0,medium
+"Organize your jewelry.",2025-09-20,"organize, jewelry, accessories",0.5,0,low
+"Plan a birthday party for a child.",2025-09-18,"plan, birthday, child",4,0,medium
+"Fix a broken toaster.",2025-09-16,"fix, toaster, broken",0.5,0,

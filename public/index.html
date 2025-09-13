@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Smart To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI-Powered To-Do List</h1>
+            <p>Smart task management with AI priority prediction</p>
+        </div>
+        <div class="input-section">
+            <input type="text" class="task-input" placeholder="Enter a new task..." id="taskInput">
+            <input type="text" class="task-input" placeholder="Keywords (comma separated)" id="keywordsInput">
+            <input type="number" class="task-input" placeholder="Effort (hours)" id="effortInput" min="1" >
+            <label style="display:flex;align-items:center;gap:5px;">
+                <input type="checkbox" id="urgentInput"> Urgent
+            </label>
+            <button class="add-btn" onclick="addTask()">+ Add Task</button>
+        </div>
+        <div class="stats">
+            <div class="stat-card high">
+                <div class="stat-number" id="highPriorityCount">0</div>
+                <div class="stat-label">High Priority</div>
+            </div>
+            <div class="stat-card medium">
+                <div class="stat-number" id="mediumPriorityCount">0</div>
+                <div class="stat-label">Medium Priority</div>
+            </div>
+            <div class="stat-card low">
+                <div class="stat-number" id="lowPriorityCount">0</div>
+                <div class="stat-label">Low Priority</div>
+            </div>
+            <div class="stat-card total">
+                <div class="stat-number" id="totalTasks">0</div>
+                <div class="stat-label">Total Tasks</div>
+            </div>
+        </div>
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterTasks('all')">All Tasks</button>
+            <button class="filter-btn" onclick="filterTasks('high')">High Priority</button>
+            <button class="filter-btn" onclick="filterTasks('medium')">Medium Priority</button>
+            <button class="filter-btn" onclick="filterTasks('low')">Low Priority</button>
+            <button class="filter-btn" onclick="filterTasks('completed')">Completed</button>
+        </div>
+        <div class="tasks-container" id="tasksContainer">
+            <div class="empty-state">
+                <h3>No tasks yet!</h3>
+                <p>Add your first task above and watch the AI predict its priority.</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
