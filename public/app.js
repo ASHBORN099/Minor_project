@@ -1,6 +1,6 @@
 let tasks = [];
 let currentFilter = 'all';
-const API_URL = 'http://localhost:3001/api/tasks';
+const API_URL = '/api/tasks';
 
 // AI Priority Prediction Model
 function predictPriority(taskText) {
