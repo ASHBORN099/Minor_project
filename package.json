@@ -2,11 +2,15 @@
   "name": "minor-project",
   "version": "1.0.0",
   "description": "A modern web app for smart task management with AI priority prediction.",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
-  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["todo", "ai", "priority", "tasks"],
   "author": "",
   "license": "ISC",
   "dependencies": {
