@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Development Servers",
+			"type": "shell",
+			"command": "concurrently \"cd src && node server.js\" \"cd public && serve -s .\"",
+			"isBackground": true,
+			"group": "none"
+		},
+		{
+			"label": "Start Development Servers",
+			"type": "shell",
+			"command": "concurrently \"cd src && node server.js\" \"cd public && python -m http.server 3000\"",
+			"isBackground": true
+		},
+		{
+			"label": "Start Development Servers",
+			"type": "shell",
+			"command": "concurrently \"cd src && set DEBUG=express:* && node server.js\" \"cd public && python -m http.server 3000\"",
+			"isBackground": true
+		},
+		{
+			"label": "Start Server",
+			"type": "shell",
+			"command": "cd src && node server.js",
+			"isBackground": true
+		}
+	]
+}
