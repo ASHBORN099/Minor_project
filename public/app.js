@@ -2,53 +2,99 @@ let tasks = [];
 let currentFilter = 'all';
 const API_URL = '/api/tasks';
 
-// AI Priority Prediction Model
-function predictPriority(taskText) {
-    const text = taskText.toLowerCase();
-    // ...existing code from your provided HTML <script> block...
-    // High priority keywords and patterns
-    const urgentKeywords = ['urgent', 'asap', 'deadline', 'emergency', 'critical', 'important', 'meeting', 'call', 'interview', 'presentation', 'due', 'submit', 'send', 'finish', 'complete', 'project'];
-    const timeKeywords = ['today', 'tomorrow', 'tonight', 'morning', 'afternoon', 'evening', 'soon', 'immediately', 'now'];
-    const workKeywords = ['work', 'job', 'boss', 'client', 'customer', 'report', 'proposal', 'contract', 'budget'];
-    // Medium priority keywords
-    const mediumKeywords = ['plan', 'schedule', 'organize', 'prepare', 'review', 'check', 'update', 'research', 'learn', 'study'];
-    const healthKeywords = ['doctor', 'appointment', 'health', 'exercise', 'gym', 'medication'];
-    // Low priority keywords
-    const lowKeywords = ['maybe', 'eventually', 'someday', 'when possible', 'if time', 'leisure', 'hobby', 'fun', 'entertainment'];
-    const personalKeywords = ['clean', 'organize', 'tidy', 'shopping', 'groceries', 'laundry'];
-    let priority = 'medium';
-    let confidence = 0.5;
-    let score = 0;
-    if (urgentKeywords.some(keyword => text.includes(keyword))) score += 3;
-    if (timeKeywords.some(keyword => text.includes(keyword))) score += 2;
-    if (workKeywords.some(keyword => text.includes(keyword))) score += 2;
-    if (healthKeywords.some(keyword => text.includes(keyword))) score += 2;
-    if (taskText.includes('!')) score += 1;
-    if (taskText === taskText.toUpperCase() && taskText.length > 3) score += 2;
-    if (text.match(/\b(by|before|until)\b/)) score += 2;
-    if (text.match(/\d+:\d+/)) score += 1;
-    if (text.match(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\b/)) score += 1;
-    if (lowKeywords.some(keyword => text.includes(keyword))) score -= 2;
-    if (personalKeywords.some(keyword => text.includes(keyword))) score -= 1;
-    if (text.length < 20) score += 0.5;
-    if (text.length > 100) score -= 0.5;
-    if (score >= 4) {
-        priority = 'high';
-        confidence = Math.min(0.9, 0.6 + (score - 4) * 0.1);
-    } else if (score >= 2) {
-        priority = 'medium';
-        confidence = 0.7;
-    } else if (score <= 0) {
-        priority = 'low';
-        confidence = Math.max(0.6, 0.8 - Math.abs(score) * 0.1);
-    } else {
-        priority = 'medium';
-        confidence = 0.6;
+// Fetch tasks when page loads
+async function fetchTasks() {
+    try {
+        const response = await fetch(API_URL);
+        if (response.ok) {
+            tasks = await response.json();
+            renderTasks();
+            updateStats();
+        }
+    } catch (err) {
+        console.error('Failed to fetch tasks:', err);
     }
-    return { priority, confidence: Math.round(confidence * 100) };
+}
+
+// Initialize the app
+document.addEventListener('DOMContentLoaded', () => {
+    fetchTasks();
+});
+
+// AI Priority Prediction Model
+async function predictPriority(taskText, keywords, effort_hours, is_urgent) {
+    try {
+        // Robust type conversion for the payload
+        let parsedEffort = 0.0;
+        if (effort_hours !== undefined && effort_hours !== "") {
+            parsedEffort = parseFloat(effort_hours);
+            if (isNaN(parsedEffort) || parsedEffort < 0) {
+                console.warn('Invalid effort hours value, defaulting to 0');
+                parsedEffort = 0.0;
+            }
+        }
+        
+        const payload = {
+            text: String(taskText || "").trim(),
+            keywords: String(keywords || "").trim(),
+            effort_hours: parsedEffort,
+            is_urgent: Boolean(is_urgent)
+        };
+        
+        console.log('Sending prediction request with payload:', {
+            ...payload,
+            effort_hours_type: typeof payload.effort_hours,
+            is_urgent_type: typeof payload.is_urgent
+        });
+        
+        const response = await fetch('http://127.0.0.1:5000/predict', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
+        
+        if (!response.ok) {
+            throw new Error('Failed to get prediction');
+        }
+        
+        const result = await response.json();
+        return {
+            priority: result.priority,
+            confidence: result.confidence,
+            urgencyScore: result.urgency_score,
+            basePrediction: result.base_prediction,
+            baseConfidence: result.base_confidence,
+            fallback: result.fallback || false
+        };
+    } catch (error) {
+        console.error('Error predicting priority:', error);
+        // Enhanced fallback logic
+        const urgencyPatterns = [
+            /urgent|asap|emergency|critical/i,
+            /deadline.*?today|due.*?today/i,
+            /high.*?priority|priority.*?1/i,
+            /\b(now|immediately|tonight)\b/i
+        ];
+        
+        const urgencyScore = urgencyPatterns.reduce((score, pattern) => 
+            score + (pattern.test(taskText) ? 1 : 0), 0);
+            
+        if (urgencyScore >= 2) {
+            return { priority: 'critical', confidence: 75, fallback: true };
+        } else if (urgencyScore === 1) {
+            return { priority: 'high', confidence: 70, fallback: true };
+        } else if (/whenever|someday|maybe|if time/i.test(taskText)) {
+            return { priority: 'low', confidence: 65, fallback: true };
+        }
+        return { priority: 'medium', confidence: 60, fallback: true };
+    }
 }
 
 async function addTask() {
+    console.log('Add task function called');
     const taskInput = document.getElementById('taskInput');
     const keywordsInput = document.getElementById('keywordsInput');
     const effortInput = document.getElementById('effortInput');
@@ -56,32 +102,87 @@ async function addTask() {
 
     const taskText = taskInput.value.trim();
     const keywords = keywordsInput.value.trim();
-    const effort_hours = Number(effortInput.value) || 1;
-    const is_urgent = urgentInput.checked ? 1 : 0;
+    
+    // Robust effort hours parsing
+    let effort_hours = 1.0; // Default value
+    if (effortInput.value.trim() !== "") {
+        const parsed = parseFloat(effortInput.value);
+        if (!isNaN(parsed) && parsed >= 0) {
+            effort_hours = parsed;
+        } else {
+            console.warn('Invalid effort hours input, using default value 1.0');
+        }
+    }
+    
+    const is_urgent = Boolean(urgentInput.checked);
+    
+    console.log('Task input values:', { 
+        taskText, 
+        keywords, 
+        effort_hours,
+        effort_hours_type: typeof effort_hours,
+        is_urgent,
+        is_urgent_type: typeof is_urgent
+    });
 
     if (taskText === '') {
         alert('Please enter a task!');
         return;
     }
 
+    // Get AI prediction first with all task information
+    const prediction = await predictPriority(taskText, keywords, effort_hours, is_urgent);
+
     const task = {
         text: taskText,
         keywords,
         effort_hours,
-        is_urgent
+        is_urgent,
+        priority: prediction.priority,
+        confidence: prediction.confidence,
+        urgencyScore: prediction.urgencyScore,
+        basePrediction: prediction.basePrediction,
+        baseConfidence: prediction.baseConfidence,
+        aiPredicted: true,
+        completed: false
     };
+    // Add fallback priority if ML API failed
+    if (!task.priority) {
+        console.log('Using fallback priority logic');
+        if (task.is_urgent) {
+            task.priority = 'high';
+            task.confidence = 70;
+        } else {
+            task.priority = 'medium';
+            task.confidence = 60;
+        }
+        task.aiPredicted = false;
+    }
+
     try {
+        console.log('Sending task to server:', task);
         const res = await fetch(API_URL, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
             body: JSON.stringify(task)
         });
+        console.log('Server response status:', res.status);
+        const responseData = await res.json();
+        console.log('Server response data:', responseData);
+        
         if (res.ok) {
+            console.log('Task added successfully');
             taskInput.value = '';
             keywordsInput.value = '';
             effortInput.value = 1;
             urgentInput.checked = false;
-            fetchTasks();
+            await fetchTasks();
+        } else {
+            console.error('Server returned error:', responseData);
+            alert('Failed to add task: ' + (responseData.error || 'Unknown error'));
         }
     } catch (err) {
         alert('Failed to add task. Backend may not be running.');
@@ -131,87 +232,76 @@ function filterTasks(filter) {
 }
 
 function renderTasks() {
+    console.log('Rendering tasks. Current tasks:', tasks);
     const container = document.getElementById('tasksContainer');
+    if (!container) {
+        console.error('Tasks container not found!');
+        return;
+    }
     let filteredTasks = tasks;
-    if (currentFilter !== 'all') {
-        filteredTasks = tasks.filter(task => task.priority === currentFilter);
+    if (currentFilter === 'completed') {
+        filteredTasks = tasks.filter(task => task.completed);
+    } else if (currentFilter !== 'all') {
+        filteredTasks = tasks.filter(task => task.priority === currentFilter && !task.completed);
     }
-    const notCompletedTasks = filteredTasks.filter(task => !task.completed);
-    const completedTasks = filteredTasks.filter(task => task.completed);
-
-    let html = '';
-    // Not completed tasks list
-    html += `<div class="task-list-section">
-        <h3>Not Completed Tasks</h3>`;
-    if (notCompletedTasks.length === 0) {
-        html += `<div class="empty-state"><p>No not completed tasks.</p></div>`;
-    } else {
-        html += notCompletedTasks.sort((a, b) => {
-            const priorityOrder = { high: 3, medium: 2, low: 1 };
-            return priorityOrder[b.priority] - priorityOrder[a.priority];
-        }).map(task => {
-            const confidenceClass = task.confidence >= 80 ? 'high' : task.confidence >= 60 ? 'medium' : 'low';
-            return `
-                <div class="task-item ${task.priority}">
-                    <div class="task-content">
-                        <input type="checkbox" class="task-checkbox" onchange="toggleTask(${task.id})">
-                        <span class="task-text">${task.text}</span>
-                        ${task.keywords ? `<span class="task-keywords">🔑 ${task.keywords}</span>` : ''}
-                        <span class="task-effort">⏱️ ${task.effort_hours}h</span>
-                        ${task.is_urgent ? `<span class="task-urgent">⚡ Urgent</span>` : ''}
-                        ${task.aiPredicted ? '<span class="ai-badge">AI</span>' : ''}
-                    </div>
-                    <div class="task-actions">
-                        <span class="task-priority ${task.priority}">${task.priority}</span>
-                        <span class="confidence-indicator ${confidenceClass}" title="AI Confidence: ${task.confidence}%"></span>
-                        <button class="delete-btn" onclick="deleteTask(${task.id})">Delete</button>
-                    </div>
-                </div>
-            `;
-        }).join('');
+    console.log('Filtered tasks:', filteredTasks);
+    if (filteredTasks.length === 0) {
+        container.innerHTML = `
+            <div class="empty-state">
+                <h3>${currentFilter === 'all' ? 'No tasks yet!' : `No ${currentFilter} priority tasks!`}</h3>
+                <p>${currentFilter === 'all' ? 'Add your first task above and watch the AI predict its priority.' : 'Try a different filter or add more tasks.'}</p>
+            </div>
+        `;
+        return;
     }
-    html += `</div>`;
-
-    // Completed tasks list
-    html += `<div class="task-list-section">
-        <h3>Completed Tasks</h3>`;
-    if (completedTasks.length === 0) {
-        html += `<div class="empty-state"><p>No completed tasks.</p></div>`;
-    } else {
-        html += completedTasks.sort((a, b) => {
-            const priorityOrder = { high: 3, medium: 2, low: 1 };
-            return priorityOrder[b.priority] - priorityOrder[a.priority];
-        }).map(task => {
-            const confidenceClass = task.confidence >= 80 ? 'high' : task.confidence >= 60 ? 'medium' : 'low';
-            return `
-                <div class="task-item ${task.priority} completed">
-                    <div class="task-content">
-                        <input type="checkbox" class="task-checkbox" checked onchange="toggleTask(${task.id})">
-                        <span class="task-text">${task.text}</span>
-                        ${task.keywords ? `<span class="task-keywords">🔑 ${task.keywords}</span>` : ''}
-                        <span class="task-effort">⏱️ ${task.effort_hours}h</span>
-                        ${task.is_urgent ? `<span class="task-urgent">⚡ Urgent</span>` : ''}
-                        ${task.aiPredicted ? '<span class="ai-badge">AI</span>' : ''}
+    filteredTasks.sort((a, b) => {
+        if (a.completed !== b.completed) {
+            return a.completed ? 1 : -1;
+        }
+        const priorityOrder = { critical: 4, high: 3, medium: 2, low: 1 };
+        return priorityOrder[b.priority] - priorityOrder[a.priority];
+    });
+            container.innerHTML = filteredTasks.map(task => {
+                const confidenceClass = task.confidence >= 85 ? 'high' : task.confidence >= 70 ? 'medium' : 'low';
+                const priorityClass = task.priority === 'critical' ? 'critical' : 
+                                    task.priority === 'high' ? 'high' :
+                                    task.priority === 'medium' ? 'medium' : 'low';
+                return `
+                    <div class="task-item ${priorityClass} ${task.completed ? 'completed' : ''}">
+                        <div class="task-content">
+                            <input type="checkbox" class="task-checkbox" ${task.completed ? 'checked' : ''} onchange="toggleTask(${task.id})">
+                            <span class="task-text">${task.text}</span>
+                            ${task.keywords ? `<span class="task-keywords">🔑 ${task.keywords}</span>` : ''}
+                            <span class="task-effort">⏱️ ${task.effort_hours}h</span>
+                            ${task.is_urgent ? `<span class="task-urgent">⚡ Urgent</span>` : ''}
+                            ${task.aiPredicted ? `
+                                <div class="ai-prediction-info">
+                                    <span class="ai-badge" title="AI Predicted">🤖</span>
+                                    ${task.urgencyScore ? `<span class="urgency-score" title="Urgency Score">🔥 ${task.urgencyScore}</span>` : ''}
+                                    ${task.basePrediction !== task.priority ? 
+                                        `<span class="base-prediction" title="Initial AI Prediction">📊 ${task.basePrediction} (${task.baseConfidence.toFixed(1)}%)</span>` 
+                                        : ''}
+                                </div>
+                            ` : ''}
+                        </div>
+                        <div class="task-actions">
+                            <span class="task-priority ${task.priority}">${task.priority}</span>
+                            <span class="confidence-indicator ${confidenceClass}" title="AI Confidence: ${task.confidence}%"></span>
+                            <button class="delete-btn" onclick="deleteTask(${task.id})">Delete</button>
+                        </div>
                     </div>
-                    <div class="task-actions">
-                        <span class="task-priority ${task.priority}">${task.priority}</span>
-                        <span class="confidence-indicator ${confidenceClass}" title="AI Confidence: ${task.confidence}%"></span>
-                        <button class="delete-btn" onclick="deleteTask(${task.id})">Delete</button>
-                    </div>
-                </div>
-            `;
-        }).join('');
-    }
-    html += `</div>`;
-
-    container.innerHTML = html;
+                `;
+            }).join('');
 }
 
 function updateStats() {
     const activeTasks = tasks.filter(task => !task.completed);
+    const criticalPriority = activeTasks.filter(task => task.priority === 'critical').length;
     const highPriority = activeTasks.filter(task => task.priority === 'high').length;
     const mediumPriority = activeTasks.filter(task => task.priority === 'medium').length;
     const lowPriority = activeTasks.filter(task => task.priority === 'low').length;
+    
+    document.getElementById('criticalPriorityCount').textContent = criticalPriority;
     document.getElementById('highPriorityCount').textContent = highPriority;
     document.getElementById('mediumPriorityCount').textContent = mediumPriority;
     document.getElementById('lowPriorityCount').textContent = lowPriority;

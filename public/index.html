@@ -22,6 +22,10 @@
             <button class="add-btn" onclick="addTask()">+ Add Task</button>
         </div>
         <div class="stats">
+            <div class="stat-card critical">
+                <div class="stat-number" id="criticalPriorityCount">0</div>
+                <div class="stat-label">Critical Priority</div>
+            </div>
             <div class="stat-card high">
                 <div class="stat-number" id="highPriorityCount">0</div>
                 <div class="stat-label">High Priority</div>
@@ -41,6 +45,7 @@
         </div>
         <div class="filters">
             <button class="filter-btn active" onclick="filterTasks('all')">All Tasks</button>
+            <button class="filter-btn" onclick="filterTasks('critical')">Critical Priority</button>
             <button class="filter-btn" onclick="filterTasks('high')">High Priority</button>
             <button class="filter-btn" onclick="filterTasks('medium')">Medium Priority</button>
             <button class="filter-btn" onclick="filterTasks('low')">Low Priority</button>

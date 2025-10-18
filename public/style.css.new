@@ -1,0 +1,50 @@
+.task-item.critical {
+    border-left: 4px solid #ff1744 !important;
+    background-color: #ff174409 !important;
+}
+
+.task-priority.critical {
+    background-color: #ff1744 !important;
+    color: white !important;
+}
+
+.ai-prediction-info {
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: 12px;
+    padding: 4px 8px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.ai-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 6px;
+    background: #e3f2fd;
+    color: #1976d2;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.urgency-score {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 6px;
+    background: #fff3e0;
+    color: #f57c00;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.base-prediction {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 6px;
+    background: #e8eaf6;
+    color: #3f51b5;
+    border-radius: 4px;
+    font-size: 12px;
+}
