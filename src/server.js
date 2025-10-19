@@ -27,9 +27,9 @@ app.use((err, req, res, next) => {
 
 // Configure CORS
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://ai-todo-list-h74p.onrender.com'],
+    origin: '*',  // Allow all origins for now
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type']
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
 }));
 
 app.use(bodyParser.json());
