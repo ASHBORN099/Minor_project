@@ -51,17 +51,36 @@ app.get("/api/tasks", (req, res) => {
 
 app.post("/api/tasks", (req, res) => {
     try {
+        // Calculate priority based on effort and urgency
+        let calculatedPriority = "medium";
+        const effort = Number(req.body.effort_hours) || 1;
+        const isUrgent = Boolean(req.body.is_urgent);
+        const keywords = (req.body.keywords || "").toLowerCase();
+        
+        // Priority calculation rules
+        if (isUrgent) {
+            if (effort <= 2 || keywords.includes("deadline") || keywords.includes("due") || keywords.includes("submit")) {
+                calculatedPriority = "critical";
+            } else {
+                calculatedPriority = "high";
+            }
+        } else {
+            if (effort > 4 || keywords.includes("organize") || keywords.includes("later")) {
+                calculatedPriority = "low";
+            } else if (effort <= 2 && (keywords.includes("important") || keywords.includes("soon"))) {
+                calculatedPriority = "high";
+            }
+        }
+
         const task = {
             id: Date.now(),
             text: req.body.text,
             keywords: req.body.keywords || "",
-            effort_hours: Number(req.body.effort_hours) || 1,
-            is_urgent: Boolean(req.body.is_urgent),
-            priority: req.body.priority || "medium",
-            confidence: req.body.confidence || 0,
-            urgencyScore: req.body.urgencyScore || 0,
-            basePrediction: req.body.basePrediction || req.body.priority,
-            baseConfidence: req.body.baseConfidence || 0,
+            effort_hours: effort,
+            is_urgent: isUrgent,
+            priority: calculatedPriority,
+            confidence: 0.8,
+            urgencyScore: isUrgent ? 0.9 : 0.3,
             aiPredicted: Boolean(req.body.aiPredicted),
             completed: false,
             created_at: new Date().toISOString()
