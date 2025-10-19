@@ -10,11 +10,16 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "keywords": ["todo", "ai", "priority", "tasks"],
+  "keywords": [
+    "todo",
+    "ai",
+    "priority",
+    "tasks"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.12.1",
+    "axios": "^1.12.2",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0"

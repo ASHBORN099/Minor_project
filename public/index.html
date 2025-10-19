@@ -12,15 +12,16 @@
             <h1>🤖 AI-Powered To-Do List</h1>
             <p>Smart task management with AI priority prediction</p>
         </div>
-        <div class="input-section">
+        <div id="errorContainer" class="error-container"></div>
+        <form id="taskForm" class="input-section">
             <input type="text" class="task-input" placeholder="Enter a new task..." id="taskInput">
-            <input type="text" class="task-input" placeholder="Keywords (comma separated)" id="keywordsInput">
-            <input type="number" class="task-input" placeholder="Effort (hours)" id="effortInput" min="1" >
+            <input type="text" class="task-input" placeholder="Keywords (comma separated)" id="keywords">
+            <input type="number" class="task-input" placeholder="Effort (hours)" id="effortHours" min="1" value="1">
             <label style="display:flex;align-items:center;gap:5px;">
-                <input type="checkbox" id="urgentInput"> Urgent
+                <input type="checkbox" id="isUrgent"> Urgent
             </label>
-            <button class="add-btn" onclick="addTask()">+ Add Task</button>
-        </div>
+            <button type="submit" class="add-btn">+ Add Task</button>
+        </form>
         <div class="stats">
             <div class="stat-card critical">
                 <div class="stat-number" id="criticalPriorityCount">0</div>
@@ -51,12 +52,12 @@
             <button class="filter-btn" onclick="filterTasks('low')">Low Priority</button>
             <button class="filter-btn" onclick="filterTasks('completed')">Completed</button>
         </div>
-        <div class="tasks-container" id="tasksContainer">
+        <ul id="taskList" class="task-list">
             <div class="empty-state">
                 <h3>No tasks yet!</h3>
                 <p>Add your first task above and watch the AI predict its priority.</p>
             </div>
-        </div>
+        </ul>
     </div>
     <script src="app.js"></script>
 </body>

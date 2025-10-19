@@ -1,11 +1,105 @@
 /* UI enhancements for new fields */
 .task-keywords {
-	background: #f1c40f22;
-	color: #f39c12;
-	padding: 2px 8px;
-	border-radius: 8px;
-	font-size: 12px;
-	margin-left: 8px;
+    background: #fff3e0;
+    color: #f39c12;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+/* Custom checkbox styling */
+.complete-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #4a90e2;
+    border-radius: 4px;
+    background: white;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.checkbox:hover {
+    background: #f0f7ff;
+}
+
+.checkbox.checked {
+    background: #4a90e2;
+    border-color: #4a90e2;
+}
+
+.checkbox.checked:after {
+    content: "✓";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 6px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Custom checkbox styling */
+.complete-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.complete-label input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: relative;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.complete-label:hover input ~ .checkmark {
+    border-color: #2196F3;
+}
+
+.complete-label input:checked ~ .checkmark {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.complete-label input:checked ~ .checkmark:after {
+    display: block;
 }
 .task-effort {
 	background: #3498db22;
@@ -308,6 +402,40 @@ body {
 	color: #2c3e50;
 	font-weight: 600;
 	letter-spacing: 0.2px;
+}
+
+.task-item.completed {
+    background: #f5f6fa;
+    opacity: 0.8;
+}
+
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: #95a5a6;
+}
+
+.priority-badge {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.priority-badge.critical {
+    background-color: #ff4444;
+}
+
+.priority-badge.high {
+    background-color: #ffaa33;
+}
+
+.priority-badge.medium {
+    background-color: #33aa33;
+}
+
+.priority-badge.low {
+    background-color: #3333aa;
 }
 
 .task-actions {
