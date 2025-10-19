@@ -1,4 +1,9 @@
-﻿// DOM Elements
+﻿// API Configuration
+const API_URL = window.location.hostname === 'localhost' 
+    ? 'http://localhost:3000' 
+    : 'https://your-render-app-url.onrender.com';
+
+// DOM Elements
 const taskForm = document.getElementById('taskForm');
 const taskInput = document.getElementById('taskInput');
 const effortInput = document.getElementById('effortHours');
@@ -95,7 +100,7 @@ function createTaskElement(task) {
 async function fetchTasks() {
     try {
         console.log('Fetching tasks...');
-        const response = await fetch('http://localhost:3000/api/tasks');
+        const response = await fetch(`${API_URL}/api/tasks`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const tasks = await response.json();
         console.log('Fetched tasks:', tasks);
@@ -104,6 +109,32 @@ async function fetchTasks() {
         console.error('Error fetching tasks:', error);
         showError('Failed to load tasks. Please try again.');
     }
+}
+
+// Update priority counts
+function updatePriorityCounts(tasks) {
+    // Reset counts
+    const counts = {
+        critical: 0,
+        high: 0,
+        medium: 0,
+        low: 0,
+        total: tasks.length
+    };
+    
+    // Count tasks by priority
+    tasks.forEach(task => {
+        if (!task.completed) {
+            counts[task.priority.toLowerCase()]++;
+        }
+    });
+    
+    // Update the display
+    document.getElementById('criticalPriorityCount').textContent = counts.critical;
+    document.getElementById('highPriorityCount').textContent = counts.high;
+    document.getElementById('mediumPriorityCount').textContent = counts.medium;
+    document.getElementById('lowPriorityCount').textContent = counts.low;
+    document.getElementById('totalTasks').textContent = counts.total;
 }
 
 // Render tasks
@@ -118,6 +149,7 @@ function renderTasks(tasks) {
                 <p>Add your first task above and watch the AI predict its priority.</p>
             </div>
         `;
+        updatePriorityCounts([]);
         return;
     }
     
@@ -132,6 +164,9 @@ function renderTasks(tasks) {
     sortedTasks.forEach(task => {
         taskList.appendChild(createTaskElement(task));
     });
+    
+    // Update priority counts
+    updatePriorityCounts(tasks);
 }
 
 // Add new task
@@ -153,7 +188,7 @@ async function addTask(event) {
     
     try {
         console.log('Adding task:', taskData);
-        const response = await fetch('http://localhost:3000/api/tasks', {
+        const response = await fetch(`${API_URL}/api/tasks`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(taskData)
@@ -178,9 +213,9 @@ async function addTask(event) {
 // Delete task
 async function deleteTask(id) {
     try {
-        console.log('Deleting task:', id);
-        const response = await fetch(`http://localhost:3000/api/tasks/${id}`, {
-            method: 'DELETE'
+        console.log("Deleting task:", id);
+        const response = await fetch(`${API_URL}/api/tasks/${id}`, {
+            method: "DELETE"
         });
         
         if (!response.ok) {
@@ -199,9 +234,9 @@ async function deleteTask(id) {
 // Toggle task complete status
 async function toggleTaskComplete(id, completed) {
     try {
-        console.log('Updating task completion:', id, completed);
-        const response = await fetch(`http://localhost:3000/api/tasks/${id}`, {
-            method: 'PUT',
+        console.log("Updating task completion:", id, completed);
+        const response = await fetch(`${API_URL}/api/tasks/${id}`, {
+            method: "PUT",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ completed })
         });

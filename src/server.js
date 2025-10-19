@@ -15,7 +15,9 @@ process.on("unhandledRejection", (reason, promise) => {
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const ML_API_URL = process.env.ML_API_URL || "http://localhost:5000";
 const tasks = [];
+let nextTaskId = 1;
 
 // Basic error handling middleware
 app.use((err, req, res, next) => {
@@ -56,7 +58,7 @@ app.post("/api/tasks", async (req, res) => {
 
         // Call ML API for priority prediction
         try {
-            const mlResponse = await axios.post("http://localhost:5000/predict", {
+            const mlResponse = await axios.post(`${ML_API_URL}/predict`, {
                 text: req.body.text,
                 keywords: keywords,
                 effort_hours: effort,
@@ -66,7 +68,7 @@ app.post("/api/tasks", async (req, res) => {
             console.log("ML API Response:", mlResponse.data);
 
             const task = {
-                id: Date.now(),
+                id: nextTaskId++,
                 text: req.body.text,
                 keywords: keywords,
                 effort_hours: effort,
@@ -101,7 +103,7 @@ app.post("/api/tasks", async (req, res) => {
             }
 
             const task = {
-                id: Date.now(),
+                id: nextTaskId++,
                 text: req.body.text,
                 keywords: keywords,
                 effort_hours: effort,
