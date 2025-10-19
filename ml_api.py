@@ -4,7 +4,13 @@ import re
 import os
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={
+    r"/*": {
+        "origins": ["http://localhost:3000", "https://ai-todo-list-h74p.onrender.com", "https://todo-backend-q75s.onrender.com"],
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "allow_headers": ["Content-Type"]
+    }
+})
 
 def calculate_priority(text, is_urgent=False, effort_hours=1):
     """Calculate task priority based on simple rules"""

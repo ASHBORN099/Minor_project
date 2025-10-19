@@ -1,7 +1,7 @@
 ﻿// API Configuration
 const API_URL = window.location.hostname === 'localhost' 
     ? 'http://localhost:3000' 
-    : 'https://your-render-app-url.onrender.com';
+    : 'https://todo-backend-q75s.onrender.com';
 
 // DOM Elements
 const taskForm = document.getElementById('taskForm');

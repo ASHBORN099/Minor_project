@@ -25,7 +25,13 @@ app.use((err, req, res, next) => {
     res.status(500).send("Something broke!");
 });
 
-app.use(cors());
+// Configure CORS
+app.use(cors({
+    origin: ['http://localhost:3000', 'https://ai-todo-list-h74p.onrender.com'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type']
+}));
+
 app.use(bodyParser.json());
 
 // Log all requests
